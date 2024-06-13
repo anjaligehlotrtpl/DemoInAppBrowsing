@@ -45,11 +45,11 @@
         <param name="onload" value="true" />
         <preference name="android-minSdkVersion" value="16"/>
         <preference name="android-targetSdkVersion" value="33"/>
-         <queries>
+         <!-- <queries>
                 <intent>
                     <action android:name="android.support.customtabs.action.CustomTabsService" />
                 </intent>
-          </queries>
+          </queries> -->
           <edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
             <uses-sdk android:minSdkVersion="16" android:maxSdkVersion="33" />
           </edit-config>
